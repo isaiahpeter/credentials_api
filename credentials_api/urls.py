@@ -21,6 +21,7 @@ from django.conf.urls.static import static
 from drf_spectacular.views import (
         SpectacularAPIView,
         SpectacularRedocView,
+        SpectacularSwaggerView,
         )
 
 urlpatterns = [
