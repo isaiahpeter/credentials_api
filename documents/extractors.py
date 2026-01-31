@@ -12,6 +12,8 @@ try:
     import PyPDF2
     from PIL import Image
     import pytesseract
+    pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
+    
 except ImportError:
     PyPDF2 = None
     Image = None
