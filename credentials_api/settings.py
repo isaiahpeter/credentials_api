@@ -140,3 +140,5 @@ SPECTACULAR_SETTINGS = {
         "VERSION": "1.0.0",
         "SERVE_INCLUDE_SCHEMA": False,
         }
+CORS_ALLOWED_ORIGINS=("http://localhost:3000","http://localhost:8000", "http://ghonsi-proof.vercel.app",)
+CSRF_TRUSTED_ORIGINS = ["localhost:3000"]
